@@ -1,9 +1,9 @@
+import Todos from "./components/Todos/Todos";
+
 function App() {
   return (
     <>
-      <h1 className="text-4xl md:text-5xl text-center text-sky-400 mt-8 font-semibold">
-        Welcome to React <span className="text-sky-800  ">Redux Thunk</span>
-      </h1>
+      <Todos></Todos>
     </>
   );
 }
